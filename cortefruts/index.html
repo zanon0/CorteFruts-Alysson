@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cortefruts 🍉 — fruta fresca, cortada na hora</title>
+  <meta name="description" content="Quitanda de fruta fresca. A gente corta, embala e entrega. Simples assim." />
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Manrope:wght@400;500;700;800&family=Caveat:wght@500;700&display=swap" rel="stylesheet" />
+
+  <!-- Lucide icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- JS -->
+  <script src="js/script.js" defer></script>
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/logo/favicon.ico" type="image/x-icon" />
+
+  <!-- Social preview -->
+  <meta property="og:title" content="Cortefruts 🍉 — fruta fresca, cortada na hora">
+  <meta property="og:description" content="Quitanda de fruta fresca. A gente corta, embala e entrega.">
+  <meta property="og:image" content="assets/social/og-image.jpg">
+  <meta property="og:url" content="https://cortefruts.com.br">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+
+<!-- cursor custom -->
+<div class="cursor" aria-hidden="true"></div>
+
+<!-- ================= NAV ================= -->
+<header class="nav" id="nav">
+  <a href="#top" class="logo" aria-label="Cortefruts — início">
+    <img src="assets/logo/logo.png" alt="Cortefruts" />
+  </a>
+
+  <nav class="nav-links" aria-label="Navegação principal">
+    <a href="#sobre">Sobre</a>
+    <a href="#cardapio">Cardápio</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <a href="https://wa.me/5511999999999" target="_blank" rel="noopener" class="nav-cta">
+    <i data-lucide="shopping-bag"></i>
+    Pedir agora
+  </a>
+
+  <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false">
+    <i data-lucide="menu"></i>
+  </button>
+</header>
+
+<div class="mobile-menu" aria-hidden="true">
+  <a href="#sobre">Sobre <span>01</span></a>
+  <a href="#cardapio">Cardápio <span>02</span></a>
+  <a href="#galeria">Galeria <span>03</span></a>
+  <a href="#contato">Contato <span>04</span></a>
+</div>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top">
+  <span class="float-fruit f1" data-parallax="18">🍉</span>
+  <span class="float-fruit f2" data-parallax="24">🍊</span>
+  <span class="float-fruit f3" data-parallax="20">🍓</span>
+  <span class="float-fruit f4" data-parallax="26">🍋</span>
+  <span class="float-fruit f5" data-parallax="14">🍇</span>
+  <span class="float-fruit f6" data-parallax="16">🥝</span>
+
+  <div class="hero-inner">
+    <div class="hero-text">
+      <span class="badge">
+        <i data-lucide="basket"></i>
+        fruta fresca do dia
+      </span>
+      <h1 class="reveal">
+        Fruta<br>
+        <em>fresquinha</em><br>
+        na sua casa.
+      </h1>
+      <p class="hero-sub reveal d1">
+        A gente escolhe, corta e entrega. Você só precisa abrir a geladeira
+        e aproveitar. É simples assim, igual fruta boa deve ser.
+      </p>
+      <div class="hero-cta reveal d2">
+        <a href="#cardapio" class="btn btn-main">
+          Ver o cardápio
+          <i data-lucide="arrow-right"></i>
+        </a>
+        <a href="#contato" class="btn btn-ghost">Falar com a gente</a>
+      </div>
+    </div>
+
+    <div class="sticker-wrap reveal d1">
+      <svg class="sticker" viewBox="0 0 200 200" aria-hidden="true">
+        <defs>
+          <path id="sticker-path" d="M 100,100 m -78,0 a 78,78 0 1,1 156,0 a 78,78 0 1,1 -156,0"/>
+        </defs>
+        <text font-size="13" letter-spacing="3">
+          <textPath href="#sticker-path">
+            FRUTA FRESCA • CORTADA NA HORA • ENTREGA NO DIA •
+          </textPath>
+        </text>
+      </svg>
+      <div class="sticker-center" id="stickerCenter">🍉</div>
+    </div>
+  </div>
+
+  <div class="scroll-hint hand">
+    rola aí
+    <i data-lucide="arrow-down"></i>
+  </div>
+</section>
+
+<!-- ================= MARQUEE ================= -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>MELANCIA 🍉</span><span>✦</span>
+    <span>MORANGO 🍓</span><span>✦</span>
+    <span>LARANJA 🍊</span><span>✦</span>
+    <span>ABACAXI 🍍</span><span>✦</span>
+    <span>UVA 🍇</span><span>✦</span>
+    <span>KIWI 🥝</span><span>✦</span>
+    <span>MELANCIA 🍉</span><span>✦</span>
+    <span>MORANGO 🍓</span><span>✦</span>
+    <span>LARANJA 🍊</span><span>✦</span>
+    <span>ABACAXI 🍍</span><span>✦</span>
+    <span>UVA 🍇</span><span>✦</span>
+    <span>KIWI 🥝</span><span>✦</span>
+  </div>
+</div>
+
+<!-- ================= SOBRE ================= -->
+<section class="section" id="sobre">
+  <div class="sec-head">
+    <span class="sec-kicker">a história da casa 🧺</span>
+    <h2>Nasceu na feira,<br>cresceu na cozinha.<span class="accent"></span></h2>
+  </div>
+
+  <div class="sobre-grid">
+    <div class="sobre-text reveal">
+      <p>
+        A Cortefruts começou como toda boa quitanda: na família reunida
+        num sábado, cortando melancia pra festa do domingo.
+      </p>
+      <p>
+        De lá pra cá virou um time que escolhe fruta no ponto, corta do
+        jeito que você gosta e entrega fresquinha na sua porta. Sem
+        conservante, sem enrolação, sem "fruta que parece plástico".
+      </p>
+      <p>
+        Atendemos casa, escritório, festa, casamento e aquele churrasco
+        de última hora. Do clássico cubo de melancia à escultura de
+        abacaxi — a gente faz.
+      </p>
+
+      <div class="sobre-stats">
+        <div class="stat">
+          <div class="num">+12</div>
+          <div class="lbl">anos na feira</div>
+        </div>
+        <div class="stat">
+          <div class="num">~30</div>
+          <div class="lbl">frutas selecionadas</div>
+        </div>
+        <div class="stat">
+          <div class="num">1 dia</div>
+          <div class="lbl">pra entrega</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="basket reveal d1" aria-hidden="true">
+      <svg class="basket-ring" viewBox="0 0 200 200">
+        <defs>
+          <path id="basket-path" d="M 100,100 m -82,0 a 82,82 0 1,1 164,0 a 82,82 0 1,1 -164,0"/>
+        </defs>
+        <circle cx="100" cy="100" r="94" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <circle cx="100" cy="100" r="86" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="2 5"/>
+        <text font-size="9" letter-spacing="2.5" fill="currentColor" font-weight="700">
+          <textPath href="#basket-path">FEITO À MÃO · FRUTA FRESCA · DESDE 2012 ·</textPath>
+        </text>
+      </svg>
+      <div class="basket-center">🍉</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CARDÁPIO ================= -->
+<section class="section" id="cardapio">
+  <div class="sec-head">
+    <span class="sec-kicker">o que tem hoje ✨</span>
+    <h2>Cardápio do dia<span class="accent"></span></h2>
+  </div>
+
+  <div class="grid-frutas">
+
+    <div class="fruta reveal" data-fruta="🍉">
+      <div class="fruta-emoji">🍉</div>
+      <div class="fruta-name">Melancia em cubos</div>
+      <div class="fruta-desc">Doce, fresquinha e no ponto. Em cubo perfeito pra não melecar tudo.</div>
+      <div class="fruta-row">
+        <span class="fruta-price">R$ 15</span>
+        <a href="https://wa.me/5511999999999?text=Oi!%20Quero%20melancia%20em%20cubos" target="_blank" rel="noopener" class="fruta-btn">
+          Pedir <i data-lucide="plus"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="fruta reveal d1" data-fruta="🍊">
+      <div class="fruta-emoji">🍊</div>
+      <div class="fruta-name">Laranja em rodelas</div>
+      <div class="fruta-desc">Suculenta, cortada fininha. Aquele cheirinho de fruta boa no ar.</div>
+      <div class="fruta-row">
+        <span class="fruta-price">R$ 12</span>
+        <a href="https://wa.me/5511999999999?text=Oi!%20Quero%20laranja%20em%20rodelas" target="_blank" rel="noopener" class="fruta-btn">
+          Pedir <i data-lucide="plus"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="fruta reveal d2" data-fruta="🍓">
+      <div class="fruta-emoji">🍓</div>
+      <div class="fruta-name">Morango selecionado</div>
+      <div class="fruta-desc">Vermelhinho, doce e sem preguiça. Escolhido um por um.</div>
+      <div class="fruta-row">
+        <span class="fruta-price">R$ 18</span>
+        <a href="https://wa.me/5511999999999?text=Oi!%20Quero%20morango" target="_blank" rel="noopener" class="fruta-btn">
+          Pedir <i data-lucide="plus"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="fruta reveal" data-fruta="🍇">
+      <div class="fruta-emoji">🍇</div>
+      <div class="fruta-name">Uva sem semente</div>
+      <div class="fruta-desc">Prática, docinha, sem caroço. Do jeito que a vida deve ser.</div>
+      <div class="fruta-row">
+        <span class="fruta-price">R$ 14</span>
+        <a href="https://wa.me/5511999999999?text=Oi!%20Quero%20uva%20sem%20semente" target="_blank" rel="noopener" class="fruta-btn">
+          Pedir <i data-lucide="plus"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="fruta reveal d1" data-fruta="🍍">
+      <div class="fruta-emoji">🍍</div>
+      <div class="fruta-name">Abacaxi em fatias</div>
+      <div class="fruta-desc">Doce e tropical. Fatia grossa pra quem gosta de verdade.</div>
+      <div class="fruta-row">
+        <span class="fruta-price">R$ 13</span>
+        <a href="https://wa.me/5511999999999?text=Oi!%20Quero%20abacaxi" target="_blank" rel="noopener" class="fruta-btn">
+          Pedir <i data-lucide="plus"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="fruta reveal d2" data-fruta="🥝">
+      <div class="fruta-emoji">🥝</div>
+      <div class="fruta-name">Kiwi em rodelas</div>
+      <div class="fruta-desc">Azedinho do bom, verde que dá gosto de ver. Fecha com chave de ouro.</div>
+      <div class="fruta-row">
+        <span class="fruta-price">R$ 16</span>
+        <a href="https://wa.me/5511999999999?text=Oi!%20Quero%20kiwi" target="_blank" rel="noopener" class="fruta-btn">
+          Pedir <i data-lucide="plus"></i>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= GALERIA ================= -->
+<section class="section" id="galeria">
+  <div class="sec-head">
+    <span class="sec-kicker">direto da bancada 📸</span>
+    <h2>Uns cortes aí<span class="accent"></span></h2>
+  </div>
+
+  <div class="grid-galeria">
+    <div class="foto f-1 reveal">
+      <div class="foto-inner" data-label="mesa de festa">🍊</div>
+    </div>
+    <div class="foto f-2 reveal d1">
+      <div class="foto-inner" data-label="bandeja verde">🥝</div>
+    </div>
+    <div class="foto f-3 reveal">
+      <div class="foto-inner" data-label="morango do dia">🍓</div>
+    </div>
+    <div class="foto f-4 reveal d1">
+      <div class="foto-inner" data-label="uva fresquinha">🍇</div>
+    </div>
+    <div class="foto f-5 reveal d2">
+      <div class="foto-inner" data-label="abacaxi arte">🍍</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTATO ================= -->
+<section class="section" id="contato">
+  <div class="sec-head">
+    <span class="sec-kicker">bora trocar uma ideia? 💬</span>
+    <h2>Fala com a gente<span class="accent"></span></h2>
+  </div>
+
+  <div class="contato-grid">
+    <div class="contato-info reveal">
+      <p class="lead">
+        Quer encomendar, tirar dúvida ou só dar um oi?
+        A gente responde rapidinho.
+      </p>
+      <a class="big" href="mailto:oi@cortefruts.com.br">
+        <i data-lucide="mail"></i>
+        oi@cortefruts.com.br
+      </a>
+      <a class="big" href="https://wa.me/5511999999999">
+        <i data-lucide="phone"></i>
+        (11) 99999-9999
+      </a>
+      <a class="big" href="#top">
+        <i data-lucide="map-pin"></i>
+        São Paulo — SP
+      </a>
+
+      <div class="socials">
+        <a href="https://instagram.com/" target="_blank" rel="noopener">
+          <i data-lucide="instagram"></i> @cortefruts
+        </a>
+        <a href="https://wa.me/5511999999999" target="_blank" rel="noopener">
+          <i data-lucide="message-circle"></i> WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <form id="form" class="reveal d1" novalidate>
+      <div>
+        <label for="nome">Seu nome</label>
+        <input id="nome" name="nome" type="text" placeholder="Como podemos te chamar?" required />
+      </div>
+      <div>
+        <label for="evento">O que você quer?</label>
+        <input id="evento" name="evento" type="text" placeholder="Mesa de festa, cesta, sobremesa..." />
+      </div>
+      <div>
+        <label for="msg">Mensagem</label>
+        <textarea id="msg" name="msg" placeholder="Conta pra gente o que você precisa 🍊" required></textarea>
+      </div>
+      <button type="submit">
+        Enviar pelo WhatsApp
+        <i data-lucide="send"></i>
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <a href="#top" class="logo" aria-label="Cortefruts — voltar ao topo">
+    <img src="assets/logo/logo.png" alt="Cortefruts" />
+  </a>
+  <span>© <span id="year"></span> Cortefruts — feito com carinho e suco de laranja 🍊</span>
+  <a href="#top">
+    Voltar ao topo <i data-lucide="arrow-up"></i>
+  </a>
+</footer>
+
+<!-- ================= WHATSAPP ================= -->
+<div class="wa-wrap">
+  <div class="wa-bubble" id="waBubble">Bora conversar? 💬</div>
+  <a href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Cortefruts%20%F0%9F%8D%89"
+     class="wa-btn" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.38-1.47-.88-.79-1.47-1.76-1.64-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.06 2.87 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35z"/>
+      <path d="M12.02 2.5c-5.24 0-9.5 4.26-9.5 9.5 0 1.67.44 3.31 1.27 4.75L2.5 21.5l4.9-1.28a9.46 9.46 0 0 0 4.62 1.18h.01c5.24 0 9.5-4.26 9.5-9.5s-4.27-9.5-9.51-9.5zm0 17.38h-.01a7.9 7.9 0 0 1-4.02-1.1l-.29-.17-2.9.76.78-2.83-.19-.3a7.87 7.87 0 0 1-1.2-4.19c0-4.35 3.54-7.89 7.9-7.89a7.88 7.88 0 0 1 7.89 7.9c0 4.35-3.54 7.82-7.96 7.82z"/>
+    </svg>
+  </a>
+</div>
+
+</body>
+</html>
